@@ -1,0 +1,71 @@
+ body {
+    background-image: url("../images/playful-kitten-6683.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    }
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9vmin;
+    color: orange;
+    text-shadow: 3px 3px black;
+    }
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vmin;
+    }
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    text-decoration: none;
+    font-size: 5vmin;
+    margin-left: 1vw;
+    text-shadow: 2px 2px black;
+    position: relative;
+    }
+#nav {
+    width: 50vw;
+    height: 10vh;
+    position: relative;
+    left: 50vw;
+    top: 50vh;
+}
+#netFlix {
+    position: absolute;
+    top: 20.5vh;  
+    height: 11vh;    
+    width: 10vw;    
+}
+#isThe {
+    color: black;
+    text-shadow: none;
+}
+#popUp {
+    height: 25vh;
+    width: 50vw;
+    background-color: rgba(0,0,0,0.8);
+    margin: auto;
+    color: orange;
+    text-align: left;
+    border-radius: 2vh;
+    border: 0.5vh solid orange;
+    font-size: 2.5vmin;
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+    position: relative;
+    bottom: 5vh;
+}
+#closeButton {
+    height: 4vh;
+    position: absolute;
+    left: 73.6vw;
+    top: 34.5vh;        
+    display: none;
+    z-index: +1;
+}
+#catPaw{
+    position: relative;
+    top: 1vh;
+    right: 65vw;
+    z-index: +1;
+    display: none;
+}
